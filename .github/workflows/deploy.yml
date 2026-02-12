@@ -34,3 +34,4 @@ jobs:
           script: |
             cd ~
             ./deploy.sh
+            docker build -t thuquyen/getting-started:latest . 
